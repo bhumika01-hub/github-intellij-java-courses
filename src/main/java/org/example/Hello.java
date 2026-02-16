@@ -37,19 +37,11 @@ class Hello{
     public static void main(String args[]){
         System.out.println("I have started");
 
-        for(int a =0;a<=5;a++){
-            for(int b=0;b<=a;b++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+//        Pattern p1 = new Pattern();
+//        p1.pattern();
 
-        for(int i=0;i<=5;i++) {
-            for (int j = 6; j >= i; j--) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+        Core c1 = new Core();
+        c1.M1();
 
 
 
